@@ -1,0 +1,54 @@
+{
+    "Logistic Regression": {
+        "accuracy": 0.7423704755145494,
+        "precision": 0.5093378607809848,
+        "recall": 0.8021390374331551,
+        "specificity": 0.7207729468599033,
+        "f1_score": 0.6230529595015576,
+        "roc_auc": 0.8432018393655221,
+        "pr_auc": 0.6371599814076895,
+        "true_positives": 300,
+        "false_positives": 289,
+        "true_negatives": 746,
+        "false_negatives": 74
+    },
+    "Random Forest": {
+        "accuracy": 0.7608232789212207,
+        "precision": 0.5336976320582878,
+        "recall": 0.7834224598930482,
+        "specificity": 0.7526570048309179,
+        "f1_score": 0.6348862405200434,
+        "roc_auc": 0.8452104161822831,
+        "pr_auc": 0.6524663044782983,
+        "true_positives": 293,
+        "false_positives": 256,
+        "true_negatives": 779,
+        "false_negatives": 81
+    },
+    "XGBoost": {
+        "accuracy": 0.7466288147622427,
+        "precision": 0.5146804835924007,
+        "recall": 0.7967914438502673,
+        "specificity": 0.7285024154589372,
+        "f1_score": 0.6253934942287513,
+        "roc_auc": 0.8444250691053761,
+        "pr_auc": 0.6596501027445587,
+        "true_positives": 298,
+        "false_positives": 281,
+        "true_negatives": 754,
+        "false_negatives": 76
+    },
+    "LightGBM": {
+        "accuracy": 0.7501774308019872,
+        "precision": 0.5188356164383562,
+        "recall": 0.8101604278074866,
+        "specificity": 0.7285024154589372,
+        "f1_score": 0.6325678496868476,
+        "roc_auc": 0.8429021674545971,
+        "pr_auc": 0.6596782583968693,
+        "true_positives": 303,
+        "false_positives": 281,
+        "true_negatives": 754,
+        "false_negatives": 71
+    }
+}

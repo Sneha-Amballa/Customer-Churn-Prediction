@@ -1,0 +1,110 @@
+{
+    "assumptions": {
+        "offer_cost": 50.0,
+        "customer_value": 500.0,
+        "retention_rate": 0.2,
+        "theoretical_breakeven_threshold": 0.5
+    },
+    "train_optimization": {
+        "optimal_threshold": 0.65,
+        "max_net_financial_impact_train": 26350.0
+    },
+    "test_evaluation": [
+        {
+            "Strategy": "Cost-Benefit Optimized (p >= 0.65)",
+            "Targeted Count": 359,
+            "Targeting Rate": "25.5%",
+            "Campaign Cost ($)": "$17,950.00",
+            "Retained Churners (Exp)": 45.0,
+            "Value Preserved ($)": "$22,500.00",
+            "Net Financial Impact ($)": "$4,550.00",
+            "ROI (%)": "25.4%",
+            "Precision": "0.627",
+            "Recall": "0.602"
+        },
+        {
+            "Strategy": "Risk-Ranked Top 20%",
+            "Targeted Count": 282,
+            "Targeting Rate": "20.0%",
+            "Campaign Cost ($)": "$14,100.00",
+            "Retained Churners (Exp)": 37.0,
+            "Value Preserved ($)": "$18,500.00",
+            "Net Financial Impact ($)": "$4,400.00",
+            "ROI (%)": "31.2%",
+            "Precision": "0.656",
+            "Recall": "0.495"
+        },
+        {
+            "Strategy": "Risk-Ranked Top 30%",
+            "Targeted Count": 423,
+            "Targeting Rate": "30.0%",
+            "Campaign Cost ($)": "$21,150.00",
+            "Retained Churners (Exp)": 49.8,
+            "Value Preserved ($)": "$24,900.00",
+            "Net Financial Impact ($)": "$3,750.00",
+            "ROI (%)": "17.7%",
+            "Precision": "0.589",
+            "Recall": "0.666"
+        },
+        {
+            "Strategy": "Risk-Ranked Top 10%",
+            "Targeted Count": 141,
+            "Targeting Rate": "10.0%",
+            "Campaign Cost ($)": "$7,050.00",
+            "Retained Churners (Exp)": 21.2,
+            "Value Preserved ($)": "$10,600.00",
+            "Net Financial Impact ($)": "$3,550.00",
+            "ROI (%)": "50.4%",
+            "Precision": "0.752",
+            "Recall": "0.283"
+        },
+        {
+            "Strategy": "Standard Threshold (p >= 0.50)",
+            "Targeted Count": 549,
+            "Targeting Rate": "39.0%",
+            "Campaign Cost ($)": "$27,450.00",
+            "Retained Churners (Exp)": 58.6,
+            "Value Preserved ($)": "$29,300.00",
+            "Net Financial Impact ($)": "$1,850.00",
+            "ROI (%)": "6.7%",
+            "Precision": "0.534",
+            "Recall": "0.783"
+        },
+        {
+            "Strategy": "Value-Weighted ROI Ranking",
+            "Targeted Count": 549,
+            "Targeting Rate": "39.0%",
+            "Campaign Cost ($)": "$27,450.00",
+            "Retained Churners (Exp)": 58.6,
+            "Value Preserved ($)": "$29,300.00",
+            "Net Financial Impact ($)": "$1,850.00",
+            "ROI (%)": "6.7%",
+            "Precision": "0.534",
+            "Recall": "0.783"
+        },
+        {
+            "Strategy": "Do Nothing (Baseline)",
+            "Targeted Count": 0,
+            "Targeting Rate": "0.0%",
+            "Campaign Cost ($)": "$0.00",
+            "Retained Churners (Exp)": 0.0,
+            "Value Preserved ($)": "$0.00",
+            "Net Financial Impact ($)": "$0.00",
+            "ROI (%)": "0.0%",
+            "Precision": "0.000",
+            "Recall": "0.000"
+        },
+        {
+            "Strategy": "Mass Campaign (Target 100%)",
+            "Targeted Count": 1409,
+            "Targeting Rate": "100.0%",
+            "Campaign Cost ($)": "$70,450.00",
+            "Retained Churners (Exp)": 74.8,
+            "Value Preserved ($)": "$37,400.00",
+            "Net Financial Impact ($)": "$-33,050.00",
+            "ROI (%)": "-46.9%",
+            "Precision": "0.265",
+            "Recall": "1.000"
+        }
+    ]
+}
